@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(171, 228, 245)
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: 200px;
+}
+
+.titleSection {
+  display: flex;
+  justify-content: left;
+  margin-left: 50px;
+}
+
+.titleText {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.allListObjects {
+    display: flex;
+    flex-direction: column;
+}
+
+.listObject {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 30px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* checkBox */
+
+.fakeCheckbox {
+    background: white;
+    border: 2px solid black;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    margin-right: 15px;
+}
+
+
+.hidden {
+    opacity: .0001;
+}
+
+.checkMark {
+    font-size: 40px; 
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    margin: -20px 0px 0px -5px;
+}
+
+/* Input line */
+.listText {
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    outline: none;
+    width: 300px;
+    background-color: rgba(171, 228, 245); 
+}
+
+/* X out */
+.xOutSection {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.xOut {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+
+/* Adding items  */
+.addItemSection{
+    background: white;
+    border: 2px solid black;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.addItemText {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
